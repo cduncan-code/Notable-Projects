@@ -1,0 +1,30 @@
+External IP,External Host Name,External Domain,Role,OS,External Services,Files
+10.4.55.87,chelyabinsk,production.team4.tu,Domain Controller,Windows Server,"DNS, RDP, psexec"
+10.4.55.5,perm,production.team4.tu,File Server,Windows Server,"File Shares, RDP, psexec",Employees
+10.4.55.120,starayarussa,production.team4.tu,Workstation,Windows Desktop,"RDP, psexec",Personal
+10.4.55.161,pskov,production.team4.tu,Wordpress 3.5,Windows Server,"IIS, psexec"
+10.4.55.185,yakutsk,production.team4.tu,Wordpress Database,Linux,"MySQL, SSH"
+10.4.55.1,vologda,production.team4.tu,Joomla 3.6.0,Linux,"Apache, SSH"
+10.4.55.50,moscow,production.team4.tu,Joomla Database,Windows Server,"MySQL, SSH"
+10.4.159.83,tver,corp.team4.tu,Primary DNS,Linux,"BIND, SSH"
+10.4.159.69,tula,corp.team4.tu,File Server,Linux,"File Shares, SSH, FTP",Personal
+10.4.159.79,novosibirsk,corp.team4.tu,Workstation,Windows Desktop,"RDP, psexec",Account
+10.4.159.68,murmansk,corp.team4.tu,phpMyAdmin,Linux,"Apache, SSH, FTP, Certs"
+10.4.159.190,magnitogorsk,corp.team4.tu,phpMyAdmin Database,Linux,"MySQL, SSH"
+10.4.159.191,nizhniynovgorod,corp.team4.tu,Joomla 3.4.0,Windows Server,"IIS, psexec"
+10.4.159.87,omsk,corp.team4.tu,Joomla Database,Windows Server,"MySQL, psexec"
+10.4.176.53,krasnoyarsk,sales.team4.tu,Primary DNS,Linux,"BIND, SSH",Account
+10.4.176.175,vladimir,sales.team4.tu,Workstation,Linux,"SSH,FTP",Financial
+10.4.176.196,magadan,sales.team4.tu,phpMyAdmin,Windows Server,"IIS, psexec"
+10.4.176.160,saratov,sales.team4.tu,phpMyAdmin Database,Windows Server,"MySQL, psexec"
+10.4.176.141,chita,sales.team4.tu,Wordpress 4.0,Linux,"Apache, SSH"
+10.4.176.12,stpetersburg,sales.team4.tu,Wordpress Database,Linux,"MySQL, SSH"
+10.4.176.122,samara,sales.team4.tu,Log Server,Linux,SSH
+10.4.161.93,novgorod,cloud.team4.tu,Domain Controller,Windows Server (No GUI),"DNS, psexec",Account
+10.4.161.63,vladivostok,cloud.team4.tu,File Server,Windows Server (No GUI),"File Shares, psexec",Employees
+10.4.161.212,astrakhan,cloud.team4.tu,Wordpress 4.3,Linux,"IIS, SSH"
+10.4.161.79,voronezh,cloud.team4.tu,Wordpress Database,Windows Server,"MySQL, SSH"
+10.4.161.228,bryansk,cloud.team4.tu,Joomla 3.3.0,Windows Server,"IIS, psexec"
+10.4.161.163,khabarovsk,cloud.team4.tu,Joomla Database,Linux,"MySQL, psexec"
+
+10.4.49.0/24,Network for Kali systems
